@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
+.env
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# Documentação
+README.md
+docs/
+
+# Logs
+*.log
+
+# Dados grandes (manter apenas processados)
+data/raw/
+data/split_raw/*.csv
+
+# Artifacts desnecessários
+artifacts/
