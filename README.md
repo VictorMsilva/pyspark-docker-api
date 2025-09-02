@@ -12,6 +12,8 @@
 - ✅ **Dados em formato Parquet** comprimido
 
 ## 🏗️ Arquitetura
+```text
+[CSV Raw Data] → [PySpark Job] → [Parquet Files] → [FastAPI] → [User/API Client]
 
 ```
 ├── api/                 # FastAPI application
